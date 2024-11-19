@@ -6,7 +6,7 @@
         "items": [
           {
             "name": "Bruschetta",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/bruschetta.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/bruschetta.jpeg",
             "country": "Italy",
             "ingredients": [
               { "name": "Baguette", "quantity": "1", "unit_type": "loaf" },
@@ -29,7 +29,7 @@
           },
           {
             "name": "Spring Rolls",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/spring-rolls.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/spring-rolls.jpeg",
             "country": "Vietnam",
             "ingredients": [
               { "name": "Rice paper", "quantity": "8", "unit_type": "sheets" },
@@ -52,7 +52,7 @@
           },
           {
             "name": "Hummus",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/hummus.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/hummus.jpeg",
             "country": "Middle East",
             "ingredients": [
               { "name": "Chickpeas", "quantity": "400", "unit_type": "grams (cooked)" },
@@ -74,7 +74,7 @@
           },
           {
             "name": "Guacamole",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/guacamole.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/guacamole.jpeg",
             "country": "Mexico",
             "ingredients": [
               { "name": "Avocado", "quantity": "2", "unit_type": "pieces" },
@@ -95,7 +95,7 @@
           },
           {
             "name": "Caprese Salad",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/caprese.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/caprese.jpeg",
             "country": "Italy",
             "ingredients": [
               { "name": "Tomatoes", "quantity": "2", "unit_type": "pieces" },
@@ -122,7 +122,7 @@
         "items": [
           {
             "name": "Spaghetti Carbonara",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/spaghetti-carbonara.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/spaghetti-carbonara.jpeg",
             "country": "Italy",
             "ingredients": [
               { "name": "Spaghetti", "quantity": "400", "unit_type": "grams" },
@@ -144,7 +144,7 @@
           },
           {
             "name": "Butter Chicken",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/butter-chicken.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/butter-chicken.jpeg",
             "country": "India",
             "ingredients": [
               { "name": "Chicken breast", "quantity": "500", "unit_type": "grams" },
@@ -175,7 +175,7 @@
         "items": [
           {
             "name": "Chocolate Lava Cake",
-            "image_url": "https://github.com/LACHKAR99ZAKARIA/dish-app-JSON/blob/main/imgs/chocolate-lava-cake.jpg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/chocolate-lava-cake.jpeg",
             "country": "France",
             "ingredients": [
               { "name": "Dark chocolate", "quantity": "200", "unit_type": "grams" },
