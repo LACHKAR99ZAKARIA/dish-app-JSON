@@ -6,7 +6,7 @@
         "items": [
           {
             "name": "Bruschetta",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/bruschetta.jpeg",
+            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/Bruschetta.jpeg",
             "country": "Italy",
             "ingredients": [
               { "name": "Baguette", "quantity": "1", "unit_type": "loaf" },
