@@ -1,201 +1,199 @@
 {
-  "menu": {
     "categories": [
-      {
-        "type": "Appetizers",
-        "items": [
-          {
-            "name": "Bruschetta",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/Bruschetta.jpeg",
-            "country": "Italy",
-            "ingredients": [
-              { "name": "Baguette", "quantity": "1", "unit_type": "loaf" },
-              { "name": "Tomatoes", "quantity": "3", "unit_type": "piece" },
-              { "name": "Garlic", "quantity": "2", "unit_type": "cloves" },
-              { "name": "Basil", "quantity": "5", "unit_type": "leaves" },
-              { "name": "Olive oil", "quantity": "3", "unit_type": "tablespoons" },
-              { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" },
-              { "name": "Pepper", "quantity": "1/2", "unit_type": "teaspoon" }
-            ],
-            "description": "Crispy bread topped with a mix of fresh tomatoes, garlic, and basil, drizzled with olive oil.",
-            "preparation_time": "15 minutes",
-            "nutrition": {
-              "calories": 150,
-              "protein": "3g",
-              "carbohydrates": "20g",
-              "fat": "5g"
-            },
-            "tags": ["Vegetarian", "Italian", "Quick"]
-          },
-          {
-            "name": "Spring Rolls",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/spring-rolls.jpeg",
-            "country": "Vietnam",
-            "ingredients": [
-              { "name": "Rice paper", "quantity": "8", "unit_type": "sheets" },
-              { "name": "Shrimp", "quantity": "200", "unit_type": "grams" },
-              { "name": "Carrots", "quantity": "1", "unit_type": "piece (julienned)" },
-              { "name": "Cucumber", "quantity": "1", "unit_type": "piece (julienned)" },
-              { "name": "Mint leaves", "quantity": "10", "unit_type": "leaves" },
-              { "name": "Lettuce", "quantity": "4", "unit_type": "leaves" },
-              { "name": "Rice noodles", "quantity": "100", "unit_type": "grams (cooked)" }
-            ],
-            "description": "Fresh Vietnamese spring rolls with shrimp, crisp vegetables, and rice noodles.",
-            "preparation_time": "25 minutes",
-            "nutrition": {
-              "calories": 180,
-              "protein": "7g",
-              "carbohydrates": "28g",
-              "fat": "2g"
-            },
-            "tags": ["Gluten-Free", "Asian", "Fresh"]
-          },
-          {
-            "name": "Hummus",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/hummus.jpeg",
-            "country": "Middle East",
-            "ingredients": [
-              { "name": "Chickpeas", "quantity": "400", "unit_type": "grams (cooked)" },
-              { "name": "Tahini", "quantity": "3", "unit_type": "tablespoons" },
-              { "name": "Lemon juice", "quantity": "2", "unit_type": "tablespoons" },
-              { "name": "Garlic", "quantity": "1", "unit_type": "clove" },
-              { "name": "Olive oil", "quantity": "2", "unit_type": "tablespoons" },
-              { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
-            ],
-            "description": "A creamy dip made from blended chickpeas, tahini, and lemon juice.",
-            "preparation_time": "10 minutes",
-            "nutrition": {
-              "calories": 180,
-              "protein": "6g",
-              "carbohydrates": "20g",
-              "fat": "8g"
-            },
-            "tags": ["Vegan", "Middle Eastern", "Gluten-Free"]
-          },
-          {
-            "name": "Guacamole",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/guacamole.jpeg",
-            "country": "Mexico",
-            "ingredients": [
-              { "name": "Avocado", "quantity": "2", "unit_type": "pieces" },
-              { "name": "Lime juice", "quantity": "2", "unit_type": "tablespoons" },
-              { "name": "Cilantro", "quantity": "1", "unit_type": "tablespoon (chopped)" },
-              { "name": "Onion", "quantity": "1/2", "unit_type": "piece (finely chopped)" },
-              { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
-            ],
-            "description": "A creamy avocado dip seasoned with lime juice and cilantro.",
-            "preparation_time": "10 minutes",
-            "nutrition": {
-              "calories": 120,
-              "protein": "2g",
-              "carbohydrates": "8g",
-              "fat": "10g"
-            },
-            "tags": ["Vegan", "Mexican", "Quick"]
-          },
-          {
-            "name": "Caprese Salad",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/caprese.jpeg",
-            "country": "Italy",
-            "ingredients": [
-              { "name": "Tomatoes", "quantity": "2", "unit_type": "pieces" },
-              { "name": "Mozzarella cheese", "quantity": "200", "unit_type": "grams" },
-              { "name": "Basil", "quantity": "10", "unit_type": "leaves" },
-              { "name": "Olive oil", "quantity": "2", "unit_type": "tablespoons" },
-              { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" },
-              { "name": "Pepper", "quantity": "1", "unit_type": "teaspoon" }
-            ],
-            "description": "Fresh and light salad with ripe tomatoes, creamy mozzarella, and fresh basil.",
-            "preparation_time": "10 minutes",
-            "nutrition": {
-              "calories": 220,
-              "protein": "10g",
-              "carbohydrates": "5g",
-              "fat": "18g"
-            },
-            "tags": ["Vegetarian", "Italian", "Quick"]
-          }
-        ]
-      },
-      {
-        "type": "Main Courses",
-        "items": [
-          {
-            "name": "Spaghetti Carbonara",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/spaghetti-carbonara.jpeg",
-            "country": "Italy",
-            "ingredients": [
-              { "name": "Spaghetti", "quantity": "400", "unit_type": "grams" },
-              { "name": "Eggs", "quantity": "4", "unit_type": "piece" },
-              { "name": "Pancetta", "quantity": "150", "unit_type": "grams" },
-              { "name": "Parmesan cheese", "quantity": "100", "unit_type": "grams" },
-              { "name": "Black pepper", "quantity": "1", "unit_type": "teaspoon" },
-              { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
-            ],
-            "description": "A creamy and savory Italian pasta dish with pancetta and Parmesan cheese.",
-            "preparation_time": "20 minutes",
-            "nutrition": {
-              "calories": 450,
-              "protein": "18g",
-              "carbohydrates": "60g",
-              "fat": "15g"
-            },
-            "tags": ["Italian", "Comfort Food", "Quick"]
-          },
-          {
-            "name": "Butter Chicken",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/butter-chicken.jpeg",
-            "country": "India",
-            "ingredients": [
-              { "name": "Chicken breast", "quantity": "500", "unit_type": "grams" },
-              { "name": "Tomato puree", "quantity": "300", "unit_type": "milliliters" },
-              { "name": "Heavy cream", "quantity": "100", "unit_type": "milliliters" },
-              { "name": "Butter", "quantity": "50", "unit_type": "grams" },
-              { "name": "Garlic", "quantity": "2", "unit_type": "cloves" },
-              { "name": "Ginger", "quantity": "1", "unit_type": "tablespoon" },
-              { "name": "Garam masala", "quantity": "2", "unit_type": "teaspoons" },
-              { "name": "Cumin", "quantity": "1", "unit_type": "teaspoon" },
-              { "name": "Paprika", "quantity": "1", "unit_type": "teaspoon" },
-              { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
-            ],
-            "description": "Tender chicken cooked in a rich and creamy tomato-based sauce.",
-            "preparation_time": "40 minutes",
-            "nutrition": {
-              "calories": 500,
-              "protein": "30g",
-              "carbohydrates": "15g",
-              "fat": "35g"
-            },
-            "tags": ["Indian", "Rich", "Spicy"]
-          }
-        ]
-      },
-      {
-        "type": "Desserts",
-        "items": [
-          {
-            "name": "Chocolate Lava Cake",
-            "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/chocolate-lava-cake.jpeg",
-            "country": "France",
-            "ingredients": [
-              { "name": "Dark chocolate", "quantity": "200", "unit_type": "grams" },
-              { "name": "Butter", "quantity": "100", "unit_type": "grams" },
-              { "name": "Sugar", "quantity": "100", "unit_type": "grams" },
-              { "name": "Eggs", "quantity": "4", "unit_type": "piece" },
-              { "name": "Flour", "quantity": "50", "unit_type": "grams" }
-            ],
-            "description": "A warm and gooey chocolate cake with a molten center.",
-            "preparation_time": "30 minutes",
-            "nutrition": {
-              "calories": 350,
-              "protein": "6g",
-              "carbohydrates": "40g",
-              "fat": "18g"
-            },
-            "tags": ["Dessert", "French", "Chocolate"]
-          }
-        ]
-      }
+        {
+            "type": "Appetizers",
+            "items": [
+                {
+                    "name": "Bruschetta",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/Bruschetta.jpeg",
+                    "country": "Italy",
+                    "ingredients": [
+                        { "name": "Baguette", "quantity": "1", "unit_type": "loaf" },
+                        { "name": "Tomatoes", "quantity": "3", "unit_type": "piece" },
+                        { "name": "Garlic", "quantity": "2", "unit_type": "cloves" },
+                        { "name": "Basil", "quantity": "5", "unit_type": "leaves" },
+                        { "name": "Olive oil", "quantity": "3", "unit_type": "tablespoons" },
+                        { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" },
+                        { "name": "Pepper", "quantity": "1/2", "unit_type": "teaspoon" }
+                    ],
+                    "description": "Crispy bread topped with a mix of fresh tomatoes, garlic, and basil, drizzled with olive oil.",
+                    "preparation_time": "15 minutes",
+                    "nutrition": {
+                        "calories": 150,
+                        "protein": "3g",
+                        "carbohydrates": "20g",
+                        "fat": "5g"
+                    },
+                    "tags": ["Vegetarian", "Italian", "Quick"]
+                },
+                {
+                    "name": "Spring Rolls",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/spring-rolls.jpeg",
+                    "country": "Vietnam",
+                    "ingredients": [
+                        { "name": "Rice paper", "quantity": "8", "unit_type": "sheets" },
+                        { "name": "Shrimp", "quantity": "200", "unit_type": "grams" },
+                        { "name": "Carrots", "quantity": "1", "unit_type": "piece (julienned)" },
+                        { "name": "Cucumber", "quantity": "1", "unit_type": "piece (julienned)" },
+                        { "name": "Mint leaves", "quantity": "10", "unit_type": "leaves" },
+                        { "name": "Lettuce", "quantity": "4", "unit_type": "leaves" },
+                        { "name": "Rice noodles", "quantity": "100", "unit_type": "grams (cooked)" }
+                    ],
+                    "description": "Fresh Vietnamese spring rolls with shrimp, crisp vegetables, and rice noodles.",
+                    "preparation_time": "25 minutes",
+                    "nutrition": {
+                        "calories": 180,
+                        "protein": "7g",
+                        "carbohydrates": "28g",
+                        "fat": "2g"
+                    },
+                    "tags": ["Gluten-Free", "Asian", "Fresh"]
+                },
+                {
+                    "name": "Hummus",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/hummus.jpeg",
+                    "country": "Middle East",
+                    "ingredients": [
+                        { "name": "Chickpeas", "quantity": "400", "unit_type": "grams (cooked)" },
+                        { "name": "Tahini", "quantity": "3", "unit_type": "tablespoons" },
+                        { "name": "Lemon juice", "quantity": "2", "unit_type": "tablespoons" },
+                        { "name": "Garlic", "quantity": "1", "unit_type": "clove" },
+                        { "name": "Olive oil", "quantity": "2", "unit_type": "tablespoons" },
+                        { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
+                    ],
+                    "description": "A creamy dip made from blended chickpeas, tahini, and lemon juice.",
+                    "preparation_time": "10 minutes",
+                    "nutrition": {
+                        "calories": 180,
+                        "protein": "6g",
+                        "carbohydrates": "20g",
+                        "fat": "8g"
+                    },
+                    "tags": ["Vegan", "Middle Eastern", "Gluten-Free"]
+                },
+                {
+                    "name": "Guacamole",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/guacamole.jpeg",
+                    "country": "Mexico",
+                    "ingredients": [
+                        { "name": "Avocado", "quantity": "2", "unit_type": "pieces" },
+                        { "name": "Lime juice", "quantity": "2", "unit_type": "tablespoons" },
+                        { "name": "Cilantro", "quantity": "1", "unit_type": "tablespoon (chopped)" },
+                        { "name": "Onion", "quantity": "1/2", "unit_type": "piece (finely chopped)" },
+                        { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
+                    ],
+                    "description": "A creamy avocado dip seasoned with lime juice and cilantro.",
+                    "preparation_time": "10 minutes",
+                    "nutrition": {
+                        "calories": 120,
+                        "protein": "2g",
+                        "carbohydrates": "8g",
+                        "fat": "10g"
+                    },
+                    "tags": ["Vegan", "Mexican", "Quick"]
+                },
+                {
+                    "name": "Caprese Salad",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/caprese.jpeg",
+                    "country": "Italy",
+                    "ingredients": [
+                        { "name": "Tomatoes", "quantity": "2", "unit_type": "pieces" },
+                        { "name": "Mozzarella cheese", "quantity": "200", "unit_type": "grams" },
+                        { "name": "Basil", "quantity": "10", "unit_type": "leaves" },
+                        { "name": "Olive oil", "quantity": "2", "unit_type": "tablespoons" },
+                        { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" },
+                        { "name": "Pepper", "quantity": "1", "unit_type": "teaspoon" }
+                    ],
+                    "description": "Fresh and light salad with ripe tomatoes, creamy mozzarella, and fresh basil.",
+                    "preparation_time": "10 minutes",
+                    "nutrition": {
+                        "calories": 220,
+                        "protein": "10g",
+                        "carbohydrates": "5g",
+                        "fat": "18g"
+                    },
+                    "tags": ["Vegetarian", "Italian", "Quick"]
+                }
+            ]
+        },
+        {
+            "type": "Main Courses",
+            "items": [
+                {
+                    "name": "Spaghetti Carbonara",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/spaghetti-carbonara.jpeg",
+                    "country": "Italy",
+                    "ingredients": [
+                        { "name": "Spaghetti", "quantity": "400", "unit_type": "grams" },
+                        { "name": "Eggs", "quantity": "4", "unit_type": "piece" },
+                        { "name": "Pancetta", "quantity": "150", "unit_type": "grams" },
+                        { "name": "Parmesan cheese", "quantity": "100", "unit_type": "grams" },
+                        { "name": "Black pepper", "quantity": "1", "unit_type": "teaspoon" },
+                        { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
+                    ],
+                    "description": "A creamy and savory Italian pasta dish with pancetta and Parmesan cheese.",
+                    "preparation_time": "20 minutes",
+                    "nutrition": {
+                        "calories": 450,
+                        "protein": "18g",
+                        "carbohydrates": "60g",
+                        "fat": "15g"
+                    },
+                    "tags": ["Italian", "Comfort Food", "Quick"]
+                },
+                {
+                    "name": "Butter Chicken",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/butter-chicken.jpeg",
+                    "country": "India",
+                    "ingredients": [
+                        { "name": "Chicken breast", "quantity": "500", "unit_type": "grams" },
+                        { "name": "Tomato puree", "quantity": "300", "unit_type": "milliliters" },
+                        { "name": "Heavy cream", "quantity": "100", "unit_type": "milliliters" },
+                        { "name": "Butter", "quantity": "50", "unit_type": "grams" },
+                        { "name": "Garlic", "quantity": "2", "unit_type": "cloves" },
+                        { "name": "Ginger", "quantity": "1", "unit_type": "tablespoon" },
+                        { "name": "Garam masala", "quantity": "2", "unit_type": "teaspoons" },
+                        { "name": "Cumin", "quantity": "1", "unit_type": "teaspoon" },
+                        { "name": "Paprika", "quantity": "1", "unit_type": "teaspoon" },
+                        { "name": "Salt", "quantity": "1", "unit_type": "teaspoon" }
+                    ],
+                    "description": "Tender chicken cooked in a rich and creamy tomato-based sauce.",
+                    "preparation_time": "40 minutes",
+                    "nutrition": {
+                        "calories": 500,
+                        "protein": "30g",
+                        "carbohydrates": "15g",
+                        "fat": "35g"
+                    },
+                    "tags": ["Indian", "Rich", "Spicy"]
+                }
+            ]
+        },
+        {
+            "type": "Desserts",
+            "items": [
+                {
+                    "name": "Chocolate Lava Cake",
+                    "image_url": "https://lachkar99zakaria.github.io/dish-app-JSON/imgs/chocolate-lava-cake.jpeg",
+                    "country": "France",
+                    "ingredients": [
+                        { "name": "Dark chocolate", "quantity": "200", "unit_type": "grams" },
+                        { "name": "Butter", "quantity": "100", "unit_type": "grams" },
+                        { "name": "Sugar", "quantity": "100", "unit_type": "grams" },
+                        { "name": "Eggs", "quantity": "4", "unit_type": "piece" },
+                        { "name": "Flour", "quantity": "50", "unit_type": "grams" }
+                    ],
+                    "description": "A warm and gooey chocolate cake with a molten center.",
+                    "preparation_time": "30 minutes",
+                    "nutrition": {
+                        "calories": 350,
+                        "protein": "6g",
+                        "carbohydrates": "40g",
+                        "fat": "18g"
+                    },
+                    "tags": ["Dessert", "French", "Chocolate"]
+                }
+            ]
+        }
     ]
-  }
 }
